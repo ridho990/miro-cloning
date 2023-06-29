@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+
+		<link rel="stylesheet" href="./styles/style.css" />
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Import bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+			integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+
+	<body>
+		<nav
+			id="navbar"
+			class="navbar navbar-expand-lg bg-body-tertiary padding sticky-top"
+		>
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"
+					><img src="./images/logo.svg" alt=""
+				/></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNavDropdown"
+					aria-controls="navbarNavDropdown"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="#welcome-section"
+								>Products</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#recent-post">Solutions</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#projects">Resources</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contact">Enterprice</a>
+						</li>
+						<li class="Pricing">
+							<a class="nav-link" href="#contact">Pricing</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav ml-auto mb-2 mb-lg-0 ms-auto">
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="#welcome-section"
+								><i class="fa-solid fa-globe"></i>INA</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#recent-post">Contact Sales</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#projects">Login</a>
+						</li>
+						<button class="btn-blue">
+							Sign Up Free <i class="fa-solid fa-arrow-right-long"></i>
+						</button>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section class="hero padding-section flex-row">
+			<div class="hero-left">
+				<h1>Take ideas from better to best</h1>
+				<p>
+					Miro is your team's visual platform to connect, collaborate, and
+					create — together.
+				</p>
+				<form action="submit" class="form-hero">
+					<input
+						type="email"
+						name="email"
+						id="email"
+						placeholder="Enter your work email"
+					/>
+					<button type="submit" class="btn-blue">
+						Sign Up Free <i class="fa-solid fa-arrow-right-long"></i>
+					</button>
+				</form>
+				<p class="paragraf-kecil">Collaborate with your team within minutes</p>
+				<div class="hero-review-rate flex-row">
+					<div class="star">
+						<img src="./images/star.svg" alt="review star" />
+						<p class="kecil-banget">Based on 5149+ review</p>
+					</div>
+					<div class="logo-rate">
+						<img src="./images/logo-panah.svg" alt="logo-panah" />
+						<img src="./images/getapp.svg" alt="getapp" />
+						<img src="./images/capterra.svg" alt="capterra" />
+					</div>
+				</div>
+			</div>
+			<div class="hero-right">
+				<img src="./images/hero-image.svg" alt="" />
+			</div>
+		</section>
+
+		<section class="mitra padding-section">
+			<p>Trusted by 45M+ users</p>
+			<div class="mitra-logo flex-row">
+				<img
+					clas="mitra1"
+					src="./images/logo/Walmart_Index_Only.svg.svg"
+					alt="walmart"
+				/>
+				<img clas="mitra2" src="./images/logo/cisco.svg" alt="cisco" />
+				<img
+					clas="mitra3"
+					src="./images/logo/Volvo_Index_Only.svg.svg"
+					alt="volvo"
+				/>
+				<img clas="mitra4" src="./images/logo/deloite.svg" alt="deloitte" />
+				<img clas="mitra5" src="./images/logo/okta.svg.svg" alt="okta" />
+			</div>
+		</section>
+
+		<section class="features padding-section flex-column">
+			<div class="features-top">
+				<p class="yellow-text">YOUR IDEA START HERE</p>
+				<h1>Collaborate without constraints</h1>
+			</div>
+			<div class="con-features flex-row">
+				<div class="card-features">
+					<h3>Free Forever</h3>
+					<p>
+						Our free plan gives you unlimited team members, 3 boards, and 300+
+						expert-made templates. Signing up with your work email lets you
+						bring in your team faster. See our
+						<span class="blue-font">pricing plans</span> for more features.
+					</p>
+				</div>
+				<div class="card-features">
+					<h3>Easy Integrations</h3>
+					<p>
+						Miro has 100+ powerful integrations with tools you already use like
+						G Suite, Slack, and Jira, so your workflow is seamless. View the
+						full list in our <span class="blue-font">Marketplace</span>.
+					</p>
+				</div>
+				<div class="card-features">
+					<h3>Security First</h3>
+					<p>
+						We treat your data like you would — with the utmost care. We follow
+						industry-leading security standards and give you tools to protect
+						intellectual property. Learn more at our
+						<span class="blue-font">Trust Center</span>.
+					</p>
+				</div>
+			</div>
+			<button class="btn-blue">
+				Sign Up Free <i class="fa-solid fa-arrow-right-long"></i>
+			</button>
+		</section>
+
+		<section class="features-two padding-section">
+			<div class="features-two-one flex-row">
+				<div class="feature-two-one-left flex-column">
+					<h1>Work together, wherever you work</h1>
+					<img
+						class="show-for-mobile-two"
+						src="./images/hybridwork.svg"
+						alt=""
+					/>
+					<p>
+						In the office, remote, or a mix of the two, with Miro, your team can
+						connect, collaborate, and co-create in one space no matter where you
+						are.
+					</p>
+					<a href="">Learn more <i class="fa-solid fa-arrow-right-long"></i></a>
+				</div>
+				<div class="feature-two-one-right for-laptop">
+					<img src="./images/hybridwork.svg" alt="" />
+				</div>
+			</div>
+			<div class="features-two-two flex-row">
+				<div class="feature-two-two-left for-laptop">
+					<img src="./images/M3_integrations_all_integrations.svg" alt="" />
+				</div>
+				<div class="feature-two-two-right flex-column">
+					<h1>Connect your tools, close your tabs</h1>
+					<img
+						class="show-for-mobile-two"
+						src="./images/M3_integrations_all_integrations.svg"
+						alt=""
+					/>
+					<p>
+						Whether you want to edit your Google Docs, resolve Jira issues, or
+						collaborate over Zoom, Miro has 100+ integrations with tools you
+						already use and love.
+					</p>
+					<a href="">Learn more <i class="fa-solid fa-arrow-right-long"></i></a>
+				</div>
+			</div>
+		</section>
+
+		<section class="banner padding-section">
+			<div class="banner-img flex-row">
+				<div class="ways-work">
+					<h3>The Ways We Work</h3>
+					<p>How has our relationship with work changed?</p>
+					<button type="submit" class="btn-blue">
+						View the report <i class="fa-solid fa-arrow-right-long"></i>
+					</button>
+				</div>
+			</div>
+		</section>
+		<section class="more-features padding-section">
+			<div class="more-features-one">
+				<h1>Built for the way you work</h1>
+				<div class="con-category">
+					<span class="category">Brainstroming</span>
+					<span class="category">Diagramming</span>
+					<span class="category">Meeting & Workshops</span>
+					<span class="category">Scrum Events</span>
+					<span class="category">Mapping</span>
+					<span class="category">Research & Design</span>
+					<span class="category">Strategic Planning</span>
+				</div>
+				<div class="container-features-one flex-row">
+					<div class="features-one-left">
+						<h4 class="title-h4">Brainstroming</h4>
+						<p>
+							Unleash creative ideas and build on them with the help of sticky
+							notes, images, mind maps, videos, drawing capabilities — the list
+							goes on.
+						</p>
+						<a href=""
+							>Learn more <i class="fa-solid fa-arrow-right-long"></i
+						></a>
+					</div>
+					<div class="features-one-right">
+						<img
+							src="./images/Brainstormwithoutshadow.jpg.svg"
+							alt="brain-storm"
+						/>
+					</div>
+				</div>
+			</div>
+			<div class="more-features-two">
+				<h1>Built for all kinds of teams</h1>
+				<div class="con-category">
+					<span class="category">UX & Design</span>
+					<span class="category">Marketing</span>
+					<span class="category">Product Management</span>
+					<span class="category">Engineering</span>
+					<span class="category">Consultants</span>
+					<span class="category">Agile Coaches</span>
+					<span class="category">Sales</span>
+				</div>
+				<div class="container-features-one flex-row">
+					<div class="features-one-left">
+						<ul class="features-two-list">
+							<li><p>Build low-fi wireframes</p></li>
+							<li><p>Involve stakeholders in the design process</p></li>
+							<li><p>Run engaging design workshops</p></li>
+						</ul>
+						<a href=""
+							>Learn more <i class="fa-solid fa-arrow-right-long"></i
+						></a>
+						<p class="integrate">Integrate your favorite tools</p>
+						<div class="list-tools">
+							<img src="./images/tools/ruby.svg" alt="ruby" />
+							<img src="./images/tools/xd.svg" alt="xd" />
+							<img src="./images/tools/figma.svg" alt="figma" />
+							<img src="./images/tools/notion.svg" alt="notion" />
+						</div>
+					</div>
+					<div class="features-one-right">
+						<img src="./images/uxdesignwithoutshadow.svg" alt="brain-storm" />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="pencapaian padding-section flex-column">
+			<h1>Why companies large and small trust Miro</h1>
+			<h4><a href="">Contact Sales to request a demo</a></h4>
+			<div class="con-pencapaian flex-column">
+				<div class="baris-pencapaian flex-row">
+					<div class="box-pencapaian">
+						<h2 class="title-pencapaian">ISO</h2>
+						<h4 class="deskrispi-pencapaian">
+							ISO-27001 enterprise-grade security compliant
+						</h4>
+					</div>
+					<div class="box-pencapaian">
+						<h2 class="title-pencapaian">#1</h2>
+						<h4 class="deskrispi-pencapaian">
+							Visual Collaboration Platform on G2
+						</h4>
+					</div>
+					<div class="box-pencapaian">
+						<h2 class="title-pencapaian">99%</h2>
+						<h4 class="deskrispi-pencapaian">
+							of the Fortune 100 are customers
+						</h4>
+					</div>
+				</div>
+				<div class="baris-pencapaian flex-row">
+					<div class="box-pencapaian">
+						<h2 class="title-pencapaian">1,000+</h2>
+						<h4 class="deskrispi-pencapaian">
+							community- and expert-built templates
+						</h4>
+					</div>
+					<div class="box-pencapaian">
+						<h2 class="title-pencapaian">45M+</h2>
+						<h4 class="deskrispi-pencapaian">user around the world</h4>
+					</div>
+					<div class="box-pencapaian">
+						<h2 class="title-pencapaian">100+</h2>
+						<h4 class="deskrispi-pencapaian">
+							integrations with technology partners
+						</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="testimoni padding-section flex-column">
+			<h1>Loved by the world's best teams</h1>
+			<button class="btn-blue btn-testimoni">
+				See all customer stories <i class="fa-solid fa-arrow-right-long"></i>
+			</button>
+			<div class="con-testimoni flex-row">
+				<div class="card-testimoni flex-column">
+					<div class="card-testi-up">
+						<img
+							src="./images/testimoni/vmware.svg"
+							alt="vmware"
+							class="one-img"
+						/>
+						<p>
+							“When the pandemic hit, those of us who thrive on in-person
+							collaboration were worried that our creativity and productivity
+							would suffer. Miro was the perfect tool to help us with
+							collaboration, whiteboarding, and retrospectives while remote.”
+						</p>
+					</div>
+					<div class="profile flex-row">
+						<img
+							src="./images/testimoni/Mask_group-1.png"
+							alt="fofo profil"
+							class="profile-img"
+						/>
+						<div class="name-profie">
+							<span class="name"
+								>Roxanne Mustafa<span class="jabatan"></span>Design Team Lead at
+								VMware</span
+							>
+						</div>
+					</div>
+				</div>
+				<div class="card-testimoni flex-column">
+					<div class="card-testi-up">
+						<img src="./images/testimoni/docusign.svg" alt="vmware" />
+						<p>
+							“Miro helps solve one of the major gaps in product design: how to
+							manage tasks across product designers whose projects are in
+							different tools.”
+						</p>
+					</div>
+					<div class="profile flex-row">
+						<img
+							src="./images/testimoni/Max_grup2.png"
+							alt="fofo profil"
+							class="profile-img"
+						/>
+						<div class="name-profie">
+							<span class="name"
+								>Jane Ashley<span class="jabatan"></span>Head of Design at
+								DocuSign</span
+							>
+						</div>
+					</div>
+				</div>
+				<div class="card-testimoni flex-column">
+					<div class="card-testi-up">
+						<img src="./images/testimoni/frog.svg" alt="vmware" />
+						<p>
+							“As we used Miro we moved from skepticism to belief to innovation,
+							and now we have a tool that’s at the core of what we do and will
+							continue to extend into the future.”
+						</p>
+					</div>
+					<div class="profile flex-row">
+						<img
+							src="./images/testimoni/Mask_group-1.png"
+							alt="fofo profil"
+							class="profile-img"
+						/>
+						<div class="name-profie">
+							<span class="name"
+								>Laura Baird<span class="jabatan"></span>Design Director at
+								frog</span
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="banner-user flex-column">
+				<h1>Join 45M+ users today</h1>
+				<h4>Start for free -- upgrade anytime</h4>
+				<h4><a href="">Joining as an organization? Contact Sales</a></h4>
+				<button class="btn-blue">
+					Sign Up Free <i class="fa-solid fa-arrow-right-long"></i>
+				</button>
+			</div>
+		</section>
+
+		<footer>
+			<div
+				class="accordion accordion-flush show-for-mobile"
+				id="accordionFlush"
+			>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="flush-headingOne">
+						<button
+							class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#flush-collapseOne"
+							aria-expanded="false"
+							aria-controls="flush-collapseOne"
+						>
+							Products
+						</button>
+					</h2>
+					<div
+						id="flush-collapseOne"
+						class="accordion-collapse collapse"
+						aria-labelledby="flush-headingOne"
+						data-bs-parent="#accordionFlush"
+					>
+						<div class="accordion-body">
+							<ul>
+								<li><a href="">Online Whiteboard</a></li>
+								<li><a href="">Apps & Integrations</a></li>
+								<li><a href="">Templates</a></li>
+								<li><a href="">Miroverse</a></li>
+								<li><a href="">Miro Developer Platforms</a></li>
+								<li><a href="">Miro For Device</a></li>
+								<li><a href="">Security & Compilance</a></li>
+								<li><a href="">Accessbility</a></li>
+								<li><a href="">Changelog</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="flush-headingTwo">
+						<button
+							class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#flush-collapseTwo"
+							aria-expanded="false"
+							aria-controls="flush-collapseTwo"
+						>
+							Solutions
+						</button>
+					</h2>
+					<div
+						id="flush-collapseTwo"
+						class="accordion-collapse collapse"
+						aria-labelledby="flush-headingTwo"
+						data-bs-parent="#accordionFlush"
+					>
+						<div class="accordion-body">
+							<ul>
+								<li><a href="">Meetings and Workshops</a></li>
+								<li><a href="">Apps & Integrations</a></li>
+								<li><a href="">Agile Workflows</a></li>
+								<li><a href="">Diagramming</a></li>
+								<li><a href="">Research & Design</a></li>
+								<li><a href="">Strategy & Planninga</a></li>
+								<li><a href="">Mind Map</a></li>
+								<li><a href="">Concept Map</a></li>
+								<li><a href="">Online Sticky Note</a></li>
+								<li><a href="">Flowchart</a></li>
+								<li><a href="">Wireframing</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="flush-headingThree">
+						<button
+							class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#flush-collapseThree"
+							aria-expanded="false"
+							aria-controls="flush-collapseThree"
+						>
+							Resources
+						</button>
+					</h2>
+					<div
+						id="flush-collapseThree"
+						class="accordion-collapse collapse"
+						aria-labelledby="flush-headingThree"
+						data-bs-parent="#accordionFlush"
+					>
+						<div class="accordion-body">
+							<ul>
+								<li><a href="">Miro Academy</a></li>
+								<li><a href="">Help Center</a></li>
+								<li><a href="">Blog</a></li>
+								<li><a href="">Status</a></li>
+								<li><a href="">Miro Community</a></li>
+								<li><a href="">Miro Professional Network</a></li>
+								<li><a href="">Miro Experts Directory</a></li>
+								<li><a href="">Miro Events</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="flush-headingFour">
+						<button
+							class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#flush-collapseFour"
+							aria-expanded="false"
+							aria-controls="flush-collapseFour"
+						>
+							Company
+						</button>
+					</h2>
+					<div
+						id="flush-collapseFour"
+						class="accordion-collapse collapse"
+						aria-labelledby="flush-headingFour"
+						data-bs-parent="#accordionFlush"
+					>
+						<div class="accordion-body">
+							<ul>
+								<li><a href="">About Us</a></li>
+								<li><a href="">Career</a></li>
+								<li><a href="">Miro In The News</a></li>
+								<li><a href="">Customer Stories</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="flush-headingFive">
+						<button
+							class="accordion-button collapsed"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#flush-collapseFive"
+							aria-expanded="false"
+							aria-controls="flush-collapseFive"
+						>
+							Plans and Pricing
+						</button>
+					</h2>
+					<div
+						id="flush-collapseFive"
+						class="accordion-collapse collapse"
+						aria-labelledby="flush-headingFive"
+						data-bs-parent="#accordionFlush"
+					>
+						<div class="accordion-body">
+							<ul>
+								<li><a href="">Pricing</a></li>
+								<li><a href="">Business</a></li>
+								<li><a href="">Enterprise</a></li>
+								<li><a href="">Consultans</a></li>
+								<li><a href="">Educations</a></li>
+								<li><a href="">Startup</a></li>
+								<li><a href="">NPOs</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="for-laptop-two flex-row">
+				<div class="products">
+					<h4>Products</h4>
+					<ul>
+						<li><a href="">Online Whiteboard</a></li>
+						<li><a href="">Apps & Integrations</a></li>
+						<li><a href="">Templates</a></li>
+						<li><a href="">Miroverse</a></li>
+						<li><a href="">Miro Developer Platforms</a></li>
+						<li><a href="">Miro For Device</a></li>
+						<li><a href="">Security & Compilance</a></li>
+						<li><a href="">Accessbility</a></li>
+						<li><a href="">Changelog</a></li>
+					</ul>
+				</div>
+				<div class="solutions">
+					<h4>Solutions</h4>
+					<ul>
+						<li><a href="">Meetings and Workshops</a></li>
+						<li><a href="">Apps & Integrations</a></li>
+						<li><a href="">Agile Workflows</a></li>
+						<li><a href="">Diagramming</a></li>
+						<li><a href="">Research & Design</a></li>
+						<li><a href="">Strategy & Planninga</a></li>
+						<li><a href="">Mind Map</a></li>
+						<li><a href="">Concept Map</a></li>
+						<li><a href="">Online Sticky Note</a></li>
+						<li><a href="">Flowchart</a></li>
+						<li><a href="">Wireframing</a></li>
+					</ul>
+				</div>
+				<div class="resources">
+					<h4>Resources</h4>
+					<ul>
+						<li><a href="">Miro Academy</a></li>
+						<li><a href="">Help Center</a></li>
+						<li><a href="">Blog</a></li>
+						<li><a href="">Status</a></li>
+						<li><a href="">Miro Community</a></li>
+						<li><a href="">Miro Professional Network</a></li>
+						<li><a href="">Miro Experts Directory</a></li>
+						<li><a href="">Miro Events</a></li>
+					</ul>
+				</div>
+				<div class="company">
+					<h4>Company</h4>
+					<ul>
+						<li><a href="">About Us</a></li>
+						<li><a href="">Career</a></li>
+						<li><a href="">Miro In The News</a></li>
+						<li><a href="">Customer Stories</a></li>
+					</ul>
+				</div>
+				<div class="plans-n-pricing">
+					<h4>Plans and Pricing</h4>
+					<ul>
+						<li><a href="">Pricing</a></li>
+						<li><a href="">Business</a></li>
+						<li><a href="">Enterprise</a></li>
+						<li><a href="">Consultans</a></li>
+						<li><a href="">Educations</a></li>
+						<li><a href="">Startup</a></li>
+						<li><a href="">NPOs</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="credit" class="credit flex-row">
+				<div class="con-one-two flex-row">
+					<div class="credit-sec-one flex-row">
+						<i class="fa-brands fa-twitter"></i>
+						<i class="fa-brands fa-facebook"></i>
+						<i class="fa-brands fa-linkedin"></i>
+						<i class="fa-brands fa-instagram"></i>
+						<i class="fa-brands fa-youtube"></i>
+						<!-- <span><i class="fa-solid fa-globe"></i>INA</span> -->
+					</div>
+					<div class="credit-sec-two">
+						<ul class="flex-row">
+							<li>2023 Miro</li>
+							<li>Teams of Service</li>
+							<li>Privacy Policy</li>
+							<li>Manage Cookies</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="credit-sec-three flex-row">
+					<img src="./images/logo/appstore.svg" alt="" />
+					<img src="./images/logo/playstore.svg" alt="" />
+					<img src="./images/logo/miro.svg" alt="" />
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+			integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+			integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
