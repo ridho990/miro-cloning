@@ -315,7 +315,7 @@ form.form-hero button {
 	background-position: center center;
 	background-image: url("../images/banner.png");
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 550px;
 	align-items: center;
 	justify-content: flex-end;
 }
@@ -594,7 +594,7 @@ footer ul {
 	padding-left: 0;
 }
 
-.for-laptop {
+.for-laptop-two {
 	justify-content: space-between;
 }
 
@@ -647,14 +647,18 @@ footer ul {
 	margin-right: 0;
 }
 
-.for-laptop li a:hover {
+.for-laptop-two li a:hover {
 	text-decoration: underline;
 	color: #ffd02f !important;
 }
 
-.for-laptop li a {
+.for-laptop-two li a {
 	animation: ease-in-out 0.5s;
 	-webkit-animation: ease-in-out 0.5s;
+}
+
+.show-for-mobile-two {
+	display: none;
 }
 
 @media screen and (max-width: 1025px) {
