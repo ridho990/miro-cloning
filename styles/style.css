@@ -1134,6 +1134,7 @@ footer ul {
 
 	.credit-sec-one {
 		margin-right: 0;
+		margin-bottom: 1rem;
 	}
 
 	.credit-sec-two ul li {
@@ -1143,18 +1144,45 @@ footer ul {
 	}
 
 	.credit-sec-three img {
-		height: 1.5rem;
+		height: 2.5rem;
 	}
 }
 
 @media screen and (min-width: 1440px) {
-	#navbar .container-fluid {
-		padding-left: 6%;
-		padding-right: 6%;
+	#navbar .container-fluid,
+	footer {
+		padding-left: 7.5%;
+		padding-right: 7.5%;
 	}
 
 	.padding-section {
-		padding-left: 12.63%;
-		padding-right: 12.63%;
+		padding-left: 10.5%;
+		padding-right: 10.5%;
+	}
+}
+
+@media screen and (min-width: 1920px) {
+	#navbar .container-fluid,
+	footer {
+		padding-left: 18%;
+		padding-right: 18%;
+	}
+
+	.padding-section {
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+}
+
+@media screen and (min-width: 2560px) {
+	#navbar .container-fluid,
+	footer {
+		padding-left: 24%;
+		padding-right: 24%;
+	}
+
+	.padding-section {
+		padding-left: 26%;
+		padding-right: 26%;
 	}
 }
